@@ -1,0 +1,36 @@
+.logo{
+width: 50%;
+}
+.barra-superior,h3,h5,h6{
+font-family: 'Indie Flower', cursive;
+color: white;
+
+}
+.botones{
+  color: white;
+}
+p{
+  text-align: justify;
+  color: white;
+
+}
+.card{
+  background: rgba(105, 75, 101, 0.72)
+}
+body{
+  background-size: cover;
+  background-image: url(https://i.pinimg.com/736x/99/cb/12/99cb1294cb831e35ca24ac6b53b35a39.jpg);
+  background-attachment: fixed;
+}
+@media screen and (max-width:650px){
+  li .paginas{
+    padding: 0;
+    margin: 0;
+  }
+  h4{
+    text-align: center;
+  }
+  .logo{
+    text-align: center;
+  }
+}

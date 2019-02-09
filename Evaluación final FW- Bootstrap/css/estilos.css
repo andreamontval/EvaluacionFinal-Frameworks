@@ -1,0 +1,88 @@
+.img-logo{
+  max-width: 50%;
+  margin: 2% 0 2% 12%;
+  max-height: 100px;
+}
+.cuerpo{
+  margin: 2% 5% 2% 5%;
+}
+.blog-bootstrap{
+  background-color: rgb(26, 33, 24);
+}
+body{
+  width: 100%;
+}
+.header{
+  background-color: white;
+  width: 100%;
+}
+.facebook{
+  width: 150%;
+}
+.botones{
+  background-color: #EEE19A;
+}
+
+.post1, .post2{
+  color: white;
+}
+textarea{
+  width: 100%;
+  margin-right: 4%;
+}
+p{
+  text-align: justify;
+}
+label{
+  color: white;
+}
+header{
+  max-height: 250px;
+}
+
+@media all and (min-width:1279px) {
+  .rsociales{
+    margin-top: 6rem;
+  }
+  nav .botones{
+    margin: 1%;
+    margin-right: 3.4%;
+    margin-left: 2.4%;
+    padding: 0.2% 3% 0.2% 3%;
+  }
+
+}
+@media all and (max-width:760px){
+  .container-fluid{
+    width: 100%;
+  }
+  .paginas .botones{
+    width: 100%;
+    margin-bottom: 0.1%;
+    margin-top: 0.2%;
+  }
+  .post1{
+    width: 100%;
+    order: 1;
+  }
+  .imgvictorj{
+    width: 100%;
+    order: 2;
+  }
+  .post2{
+    width: 100%;
+    order: 1;
+  }
+  .illimani{
+    width: 100%;
+    order: 2;
+  }
+}
+@media all and (min-width:761px)and(max-width:1270px){
+  .paginas .botones{
+    margin-right: 15px;
+    margin-left: 15px;
+
+  }
+
+}

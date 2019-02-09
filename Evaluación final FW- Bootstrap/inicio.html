@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width inicial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Blog Bootstrap</title>
+  </head>
+  <body class="blog-bootstrap">
+    <header class="header">
+      <div class="container-fluid ">
+        <div class="row">
+          <div class=" col-lg-3 col-md-12 col-sm-12 col-xs-12 logo">
+            <img class="img-logo"src="img/logo.jpg" alt="">
+          </div>
+          <div class="col-lg-3 col-lg-offset-6 rsociales align-bottom">
+            <a href="https://www.facebook.com/"><button type="button" class="botones btn btn-lg btn-dark"><i class="facebook fab fa-facebook"></i></button></a>
+            <a href="https://twitter.com/?lang=es"><button type="button" class="botones btn btn-lg btn-dark"><i class="fab fa-twitter-square"></i></button></a>
+            <a href="https://www.youtube.com/"><button type="button" class="botones btn btn-lg btn-dark"><i class="fab fa-youtube-square"></i></button></a>
+            <a href="https://www.instagram.com/?hl=es-la"><button type="button" class="botones btn btn-lg btn-dark"><i class="fab fa-instagram"></i></button></a>
+            <a href="https://www.pinterest.cl/"><button type="button" class="botones btn btn-lg btn-dark"><i class="fab fa-pinterest-square"></i></button></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="paginas navbar navbar-inverse">
+      <a href="#"><button type="button" class="botones btn btn-lg btn-dark">Inicio</button></a>
+      <a href="#"><button type="button" class="botones btn btn-lg btn-dark">Artistas</button></a>
+      <a href="#"><button type="button" class="botones btn btn-lg btn-dark">Grupos</button></a>
+      <a href="#"><button type="button" class="botones btn btn-lg btn-dark">Top 10</button></a>
+      <a href="#"><button type="button" class="botones btn btn-lg btn-dark">Letras</button></a>
+      <a href="#"><button type="button" class="botones btn btn-lg btn-dark">Acordes</button></a>
+    </nav>
+    <div class="cuerpo">
+      <div class="row">
+        <div class="contenido col-lg-8 col-md-8 col-sm-12 col-xs-12 textcenter ">
+          <div class="publicacion1">
+            <div class="row">
+              <div class="col-xs-8 post1">
+                <h2>Victor Jara</h2>
+                <p>Víctor Lidio Jara Martínez (1932-1973) fue un músico, cantautor, profesor y director de teatro chileno. Fue militante del Partido Comunista de Chile. La figura de Víctor Jara es un referente internacional de la canción protesta y de cantautor, y uno de los artistas más emblemáticos del movimiento músico-social llamado «Nueva Canción Chilena». Su ideología comunista se refleja en su obra artística, de la que fue pieza central. Tras el golpe de Estado que derrocó al gobierno de     Salvador Allende el 11 de septiembre de 1973, Jara fue detenido por las fuerzas represivas de la dictadura militar recién establecida. Fue torturado y posteriormente asesinado en el antiguo Estadio Chile, que con el retorno de la democracia fue renombrado «estadio Víctor Jara».</p>
+              </div>
+              <div class="col-xs-4">
+                <img class="imgvictorj mx-auto d-block"src="img/victorj.jpg" alt="">
+              </div>
+            </div>
+            <br>
+            <div class="row comentarios">
+              <div class="col-xs-10">
+                <textarea name="name" rows="2" cols="80"></textarea>
+              </div>
+              <div class="col-xs-2">
+                <button type="button" class="botones btn btn-lg btn-dark"><i class=" comentario far fa-comment-dots"></i></button>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="publicacion1">
+            <div class="row">
+              <div class="col-xs-4">
+                <img class="illimani" src="img/illimani.jpg" alt="">
+              </div>
+              <div class="col-xs-8 post2">
+                <h2>Inti-Illimani</h2>
+                <p>Inti-Illimani (nombre compuesto del término quechua inti, 'Sol', y la palabra aimara Illimani, 'águila dorada', nombre de la montaña cercana a La Paz, Bolivia) es un conjunto musical chileno formado en 1967. Junto con Quilapayún, es uno de los grupos más conocidos internacionalmente pertenecientes al movimiento musical llamado Nueva Canción Chilena.</p>
+              </div>
+            </div>
+            <br>
+            <div class="row comentarios">
+              <div class="col-xs-10">
+                <textarea name="name" rows="2" cols="80"></textarea>
+              </div>
+              <div class="col-xs-2">
+                <button type="button" class="botones btn btn-lg btn-dark"><i class=" comentario far fa-comment-dots"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="aside col-lg-4 col-md-4 col-sm-12 col-xs-12 textcenter">
+
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Buscar tu artista...">
+            <span class="input-group-btn">
+            <button class="btn btn-secondary" type="button"><i class="fas fa-search"></i></button>
+            </span>
+          </div>
+          <br>
+          <div class="list-group">
+            <a href="#" class="list-group-item active">Mercedes Sosa</a>
+            <a href="#" class="list-group-item">Violeta Parra</a>
+            <a href="#" class="list-group-item">Joan Manuel Serrat</a>
+            <a href="#" class="list-group-item">Ismael Serrano</a>
+            <a href="#" class="list-group-item">Silvio Rodriguez</a>
+            <a href="#" class="list-group-item">Victor Jara</a>
+            <a href="#" class="list-group-item">Mercedes Sosa</a>
+            <a href="#" class="list-group-item">Violeta Parra</a>
+            <a href="#" class="list-group-item">Joan Manuel Serrat</a>
+            <a href="#" class="list-group-item">Ismael Serrano</a>
+            <a href="#" class="list-group-item">Silvio Rodriguez</a>
+            <a href="#" class="list-group-item">Victor Jara</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+
+body{
+  background-size: cover;
+  background-image: url(https://sonaesierracms-v2.cdnpservers.net/wp-content/uploads/sites/35/2018/04/cocinas.jpg);
+  background-attachment: fixed;
+}
+.container{
+  background-color: rgba(54, 47, 62, 0.8)
+}
+.titulo h1,h3{
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  margin-left: 5%;
+  color: white;
+}
+.button{
+  background-color: white;
+
+}
+.fas{
+  color: black;
+}
+.menu{
+  width: 100%;
+}
+.menu a{
+    color: white;
+}
+.sec-favoritos{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+p{
+  color:white;
+  text-align: justify;
+}
+.sec-historial p{
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+div .sec-publicaciones{
+  padding: 0 5% 0 5%;
+}
+.mote{
+  width: 150%;
+}
+.botones{
+  color: black;
+}
+.comment{
+  color: black;
+}
+@media all and (min-width:1270px){
+
+  .titulo{
+    width: 100%;
+    order: 1;
+  }
+  .sec-publicaciones{
+    width: 100%;
+    order:3;
+  }
+  .aside{
+    width: 100%;
+    order: 2;
+  }
+}
+@media all and (max-width:1269px){
+
+  .titulo{
+    width: 100%;
+    order: 1;
+  }
+  .sec-publicaciones{
+    width: 100%;
+    order:3;
+  }
+  .aside{
+    width: 100%;
+    order: 2;
+  }
+}
